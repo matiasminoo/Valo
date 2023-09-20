@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    /* background-color: #ff0022d8; */
+    background-color: #000;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    background-color: white ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.idk {
+    text-shadow: 2px 4px 5px #000;
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #010102;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+    color: #000;
+}
+
+.header a button {
+    font-weight: 700;
+    color: black;
+    background-color: #eceff1;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.header a button:hover {
+    background-color: aliceblue;
+    /* color: #ff0000d8; */
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+}
+
+.fran {
+    position: relative;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 450px;
+    width: 25%;
+    text-shadow: 2px 4px 8px violet;
+    margin-left: 115px;
+    box-shadow: 0px 0px 40px violet;
+}
+
+.fran:hover {
+    box-shadow: 0px 0px 100px violet;
+}
+
+.cards .fran a button{
+    font-weight: 700;
+    color: black;
+    background-color: #eceff1;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.cards .fran a button:hover {
+    background-color: aliceblue;
+    color: violet;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.reyna {
+    transition: all 0.3s;
+    border-radius: 10px; 
+}
+
+.reyna:hover {
+    transform: scale(1.1);
+
+}
+
+.maldo {
+    position: relative;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 450px;
+    width: 25%;
+    text-shadow: 2px 4px 8px gray;
+    margin-left: 115px;
+    box-shadow: 0px 0px 40px aliceblue;
+}
+
+.maldo:hover {
+    box-shadow: 0px 0px 100px aliceblue;
+}
+
+.cards .maldo a button{
+    font-weight: 700;
+    color: black;
+    background-color: #eceff1;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.cards .maldo a button:hover {
+    background-color: aliceblue;
+    color: gray;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.jett {
+    height: 257px;
+    transition: all 0.3s;
+    border-radius: 10px; 
+}
+
+.jett:hover {
+    transform: scale(1.1);
+}
+
+.fuertes {
+    position: relative;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 450px;
+    width: 25%;
+    text-shadow: 2px 4px 8px aquamarine;
+    margin-left: 115px;
+    box-shadow: 0px 0px 40px aquamarine;
+}
+
+.fuertes:hover {
+    box-shadow: 0px 0px 100px rgb(0, 255, 179);
+}
+
+.cards .fuertes a button{
+    font-weight: 700;
+    color: black;
+    background-color: #eceff1;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.cards .fuertes a button:hover {
+    background-color: aliceblue;
+    color: aquamarine;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.sage {
+    transition: all 0.3s;
+    border-radius: 10px; 
+}
+
+.sage:hover {
+    transform: scale(1.1);
+}
+
+.santi {
+    position: relative;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 450px;
+    width: 25%;
+    text-shadow: 2px 4px 8px goldenrod;
+    margin-left: 115px;
+    box-shadow: 0px 0px 40px goldenrod;
+}
+
+.santi:hover {
+    box-shadow: 0px 0px 100px goldenrod;
+}
+
+.cards .santi a button{
+    font-weight: 700;
+    color: black;
+    background-color: #eceff1;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.cards .santi a button:hover {
+    background-color: aliceblue;
+    color: goldenrod;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.cypher {
+    transition: all 0.3s;
+    border-radius: 10px; 
+}
+
+.cypher:hover {
+    transform: scale(1.1);
+}
+
+.marra {
+    position: relative;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 450px;
+    width: 25%;
+    text-shadow: 2px 4px 8px orangered;
+    margin-left: 115px;
+    box-shadow: 0px 0px 40px orangered;
+}
+
+.marra:hover {
+    box-shadow: 0px 0px 100px orangered;
+}
+
+.cards .marra a button{
+    font-weight: 700;
+    color: black;
+    background-color: #eceff1;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.cards .marra a button:hover {
+    background-color: aliceblue;
+    color: orangered;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.brim {
+    height: 257px;
+    transition: all 0.3s;
+    border-radius: 30px;
+}
+
+.brim:hover {
+    transform: scale(1.1);
+}
+
+
+.paler {
+    position: relative;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 450px;
+    width: 25%;
+    text-shadow: 2px 4px 8px rgb(117, 34, 34);
+    margin-left: 115px;
+    box-shadow: 0px 0px 40px rgb(231, 70, 70);
+}
+
+.paler:hover {
+    box-shadow: 0px 0px 100px rgb(117, 34, 34);
+}
+
+.cards .paler a button{
+    font-weight: 700;
+    color: black;
+    background-color: #eceff1;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.cards .paler a button:hover {
+    background-color: aliceblue;
+    color: rgb(117, 34, 34);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.chamber {
+    height: 257px;
+    transition: all 0.3s;
+    border-radius: 10px; 
+}
+
+.chamber:hover {
+    transform: scale(1.1);
+}
+
+.china {
+    position: relative;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 450px;
+    width: 25%;
+    text-shadow: 2px 4px 8px rgb(0, 255, 64);
+    margin-left: 115px;
+    box-shadow: 0px 0px 40px rgb(0, 255, 64);
+}
+
+.china:hover {
+    box-shadow: 0px 0px 100px rgb(0, 255, 64);
+}
+
+.cards .china a button{
+    font-weight: 700;
+    color: black;
+    background-color: #eceff1;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.cards .china a button:hover {
+    background-color: aliceblue;
+    color: rgb(0, 255, 64);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.kj {
+    height: 257px;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.kj:hover {
+    transform: scale(1.1);
+}
+
+#ft {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter:blur(15px);
+    background-color: rgba(243, 243, 243, 0.2);
+}
+
+.ft {
+    display: flex;
+    position:sticky;
+    bottom: 0px;
+    padding: 2px;
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    justify-content: space-between;
+    z-index: 1;
+    box-shadow: 0px 10px 30px #000;
+    border: 1px solid #ffffff40;
+}
+
+.ft p {
+    color: gainsboro;
+    justify-content: center;
+}
+
+.github {
+    margin: 0px -220px 0px; 
+    position: relative;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.github:hover {
+    transform: scale(1.2);
+}
